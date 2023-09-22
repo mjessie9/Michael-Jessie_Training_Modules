@@ -26,6 +26,7 @@ related that happens locally on your computer.
 1.  pwd
 2.  mkdir {dir}
 3.  ls
-4.  
+4.  cd ..
+5.  
 
 
