@@ -24,6 +24,7 @@ related that happens locally on your computer.
 ## Answers:
 
 1.  pwd
-2.  
+2.  mkdir {dir}
+3.  
 
 
