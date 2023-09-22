@@ -27,6 +27,6 @@ related that happens locally on your computer.
 2.  mkdir {dir}
 3.  ls
 4.  cd ..
-5.  
+5.  cp   example: cp apple another_apple
 
 
