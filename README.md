@@ -32,4 +32,4 @@ related that happens locally on your computer.
 
 
 
-![Ubuntu Image](https://imgur.com/wvv9FSX)
+![Ubuntu Image](https://github.com/mjessie9/Pictures/blob/main/Screenshot_2023-09-29_16_20_53.png)
