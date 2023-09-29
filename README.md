@@ -32,4 +32,4 @@ related that happens locally on your computer.
 
 
 
-![Ubuntu Image](https://drive.google.com/file/d/1Nce_GA7gQZqjX9MGVMLj4eziA_aXlDQm/view?usp=drive_link)
+![Ubuntu Image](https://imgur.com/wvv9FSX)
