@@ -33,3 +33,16 @@ related that happens locally on your computer.
 
 
 ![Ubuntu Image](https://github.com/mjessie9/Pictures/blob/main/Screenshot_2023-09-29_16_20_53.png)
+
+
+
+
+
+# Michael Jessie Module Three
+
+## Answers:
+
+1. In Python, you can add a single-line comment by using the # symbol.
+2. In C++, you can add a single-line comment by using the // symbols.
+3. In Python, you can add a multi-line comment by using triple quotes (''' or """).
+4. In C++, you can add a multi-line comment by using the /* and */ symbols.
