@@ -16,3 +16,80 @@ related that happens locally on your computer.
 [Taylor Swift](https://www.youtube.com/watch?v=b1kbLwvqugk)
 
 
+
+
+
+# Michael Jessie Module two
+
+## Answers:
+
+1.  pwd
+2.  mkdir {dir}
+3.  ls
+4.  cd ..
+5.  cp   example: cp apple another_apple
+
+
+
+
+![Ubuntu Image](https://github.com/mjessie9/Pictures/blob/main/Screenshot_2023-09-29_16_20_53.png)
+
+
+
+
+
+# Michael Jessie Module Three
+
+## Answers:
+
+1. In Python, you can add a single-line comment by using the # symbol.
+2. In C++, you can add a single-line comment by using the // symbols.
+3. In Python, you can add a multi-line comment by using triple quotes (''' or """).
+4. In C++, you can add a multi-line comment by using the /* and */ symbols.
+
+
+
+
+# Import the built-in Python module for handling keyboard input
+import sys
+
+# Define a function to add two numbers
+def add_numbers(num1, num2):
+
+# Return the sum of the two numbers
+    return num1 + num2  
+
+# Define a function to check if a number is odd or even
+def check_odd_even(num):
+
+# If the number is divisible by 2 with no remainder
+    if num % 2 == 0:  
+
+# The number is even   
+        return "Even"  
+
+# The number is odd        
+    else:
+        return "Odd"   
+        
+# Define the main function that uses the above two functions
+def main():
+
+ # Prompt the user to enter the first number
+    num1 = int(input("Enter the first number: "))  
+
+  # Prompt the user to enter the second number
+    num2 = int(input("Enter the second number: "))  
+    
+# Add the two numbers
+    sum = add_numbers(num1, num2) 
+    
+# Check if the sum is odd or even
+    result = check_odd_even(sum)   
+    
+# Print the result
+    print(f"The sum of {num1} and {num2} is {sum}, which is an {result} number.") 
+
+# Call the main function
+if __name__ == "__main__":
+    main()
