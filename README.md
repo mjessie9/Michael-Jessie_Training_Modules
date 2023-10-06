@@ -55,28 +55,40 @@ import sys
 
 # Define a function to add two numbers
 def add_numbers(num1, num2):
-    return num1 + num2  # Return the sum of the two numbers
+
+# Return the sum of the two numbers
+    return num1 + num2  
 
 # Define a function to check if a number is odd or even
 def check_odd_even(num):
-    if num % 2 == 0:  # If the number is divisible by 2 with no remainder
-        return "Even"  # The number is even
-    else:
-        return "Odd"   # The number is odd
 
+# If the number is divisible by 2 with no remainder
+    if num % 2 == 0:  
+
+# The number is even   
+        return "Even"  
+
+# The number is odd        
+    else:
+        return "Odd"   
+        
 # Define the main function that uses the above two functions
 def main():
-    # Prompt the user to enter the first number
+
+ # Prompt the user to enter the first number
     num1 = int(input("Enter the first number: "))  
 
-    # Prompt the user to enter the second number
+  # Prompt the user to enter the second number
     num2 = int(input("Enter the second number: "))  
-
-    sum = add_numbers(num1, num2)  # Add the two numbers
-
-    result = check_odd_even(sum)   # Check if the sum is odd or even
-
-    print(f"The sum of {num1} and {num2} is {sum}, which is an {result} number.")  # Print the result
+    
+# Add the two numbers
+    sum = add_numbers(num1, num2) 
+    
+# Check if the sum is odd or even
+    result = check_odd_even(sum)   
+    
+# Print the result
+    print(f"The sum of {num1} and {num2} is {sum}, which is an {result} number.") 
 
 # Call the main function
 if __name__ == "__main__":
