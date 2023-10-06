@@ -16,3 +16,20 @@ related that happens locally on your computer.
 [Taylor Swift](https://www.youtube.com/watch?v=b1kbLwvqugk)
 
 
+
+
+
+# Michael Jessie Module two
+
+## Answers:
+
+1.  pwd
+2.  mkdir {dir}
+3.  ls
+4.  cd ..
+5.  cp   example: cp apple another_apple
+
+
+
+
+![Ubuntu Image](https://github.com/mjessie9/Pictures/blob/main/Screenshot_2023-09-29_16_20_53.png)
