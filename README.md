@@ -46,3 +46,38 @@ related that happens locally on your computer.
 2. In C++, you can add a single-line comment by using the // symbols.
 3. In Python, you can add a multi-line comment by using triple quotes (''' or """).
 4. In C++, you can add a multi-line comment by using the /* and */ symbols.
+
+
+
+
+# Import the built-in Python module for handling keyboard input
+import sys
+
+# Define a function to add two numbers
+def add_numbers(num1, num2):
+    return num1 + num2  # Return the sum of the two numbers
+
+# Define a function to check if a number is odd or even
+def check_odd_even(num):
+    if num % 2 == 0:  # If the number is divisible by 2 with no remainder
+        return "Even"  # The number is even
+    else:
+        return "Odd"   # The number is odd
+
+# Define the main function that uses the above two functions
+def main():
+    # Prompt the user to enter the first number
+    num1 = int(input("Enter the first number: "))  
+
+    # Prompt the user to enter the second number
+    num2 = int(input("Enter the second number: "))  
+
+    sum = add_numbers(num1, num2)  # Add the two numbers
+
+    result = check_odd_even(sum)   # Check if the sum is odd or even
+
+    print(f"The sum of {num1} and {num2} is {sum}, which is an {result} number.")  # Print the result
+
+# Call the main function
+if __name__ == "__main__":
+    main()
